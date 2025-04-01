@@ -12,7 +12,7 @@ int main() {
 
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
-            cout << count << " ";
+            cout << count ;
             count++;
             if (count == 10) {
                 count = 1;
